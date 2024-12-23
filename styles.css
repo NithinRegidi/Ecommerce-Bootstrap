@@ -1,0 +1,30 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+.ecommerce-logo{
+    width: 163px;
+    height: 56px;
+}
+
+.nav-link{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.navbar{
+    position: fixed;  
+    top: 0;
+    z-index: 1000;
+    width: 100%; 
+}
+
+.carousel-item{
+    object-fit: cover;
+    height: 100vh;
+}
+
