@@ -28,3 +28,35 @@ html{
     height: 100vh;
 }
 
+#card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-section-heading{
+    color: #183b56;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.services-section-desc{
+    color: #616c7c;
+    font-size: 20px;
+}
+
+.service-card-img{
+    width: 120px;
+    height: auto;
+}
+
+.service-card-head{
+    color: #1f2933;
+    font-size: 26px;
+    font-weight: 500;
+    padding-top: 8px;
+}
+
+.service-card-desc{
+    color: #7b8794;
+    font-size: 18px;
+}
