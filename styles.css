@@ -60,3 +60,77 @@ html{
     color: #7b8794;
     font-size: 18px;
 }
+
+.products-section-heading{
+    color: #183b56;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.products-section-card{
+    height: 328px;
+    padding: 20PX;
+    border-radius: 16px;
+}
+
+.headphone-bg-container{
+    background-image: url("./images/ecommerce-products-headphones-bg.png");
+    background-size: cover;
+}
+
+.laptop-bg-container{
+    background-image: url("./images/ecommerce-products-laptops-bg.png");
+    background-size: cover;
+}
+
+.products-card-head{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.products-card-desc{
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.products-card-button{
+    color: #ff9f00;
+    background-color: #ffffff;
+    font-size: 16px;
+    width: 134px;
+    height: 48px;
+    border-width: 0;
+    border-radius: 100px;
+}
+
+.product-card-modal-title{
+    color: #323f4b;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.products-card-modal-desc{
+    font-size: 16px;
+    color: #323f4b;
+}
+
+.products-card-modal-list{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.products-card-modal-list-item{
+    font-size: 16px;
+    color: #323f4b;
+}
+
+.products-card-modal-list-item-category{
+    font-weight: bold;
+}
+
+.products-section-link{
+    color: #ff9f00;
+    font-size: 18px;
+    font-weight: 700;
+}
