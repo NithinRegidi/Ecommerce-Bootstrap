@@ -6,6 +6,16 @@ html{
     font-family: 'Lato', sans-serif;
 }
 
+a {
+    color: inherit; /* Use the current text color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover, a:focus {
+    color: #ff9f00; /* Prevent color change on hover */
+    text-decoration: none; /* Keep no underline on hover */
+}
+
 .ecommerce-logo{
     width: 163px;
     height: 56px;
@@ -134,3 +144,50 @@ html{
     font-size: 18px;
     font-weight: 700;
 }
+
+.explore-section{
+    background-color: #f5f7fa;
+}
+
+.explore-section-heading{
+    color: #183b56;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.explore-card{
+    background-color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.explore-card-img-container{
+    padding: 10px;
+}
+
+.explore-card-img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.explore-card-title{
+    color: #183b56;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.explore-card-img-title{
+    color: #1f2933;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.explore-card-link{
+    color: #ff9f00;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
